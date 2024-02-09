@@ -1,1 +1,1 @@
-
+indexing.pu will read the file collection.csv and output the tf-idf document-term matrix
