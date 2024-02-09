@@ -1,9 +1,9 @@
 # -------------------------------------------------------------------------
 # AUTHOR: Lynn Takahashi
 # FILENAME: indexing.py
-# SPECIFICATION: description of the program
+# SPECIFICATION: indexing.py will read the file collection.csv and output the tf-idf document-term matrix
 # FOR: CS 4250- Assignment #1
-# TIME SPENT: 2 hours
+# TIME SPENT: 1.5 hours
 # -----------------------------------------------------------*/
 
 # IMPORTANT NOTE: DO NOT USE ANY ADVANCED PYTHON LIBRARY TO COMPLETE THIS CODE SUCH AS numpy OR pandas. You have to work here only with standard arrays
