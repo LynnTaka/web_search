@@ -1,7 +1,7 @@
 # -------------------------------------------------------------------------
 # AUTHOR: lynn takahashi
 # FILENAME: db_connection.py
-# SPECIFICATION: description of the program
+# SPECIFICATION: establishes connection with a db and manipulates data
 # FOR: CS 4250- Assignment #1
 # TIME SPENT: 3 hrs
 # -----------------------------------------------------------*/
@@ -16,10 +16,10 @@ date = datetime(2024,2,27)
 
 def connectDataBase():
     # Create a database connection object using psycopg2
-    DB_NAME = 'assignment2'
-    DB_USER = 'postgres'
+    DB_NAME = 'databasename'
+    DB_USER = 'user'
     DB_PASS = 'password'
-    DB_HOST = 'localhost'
+    DB_HOST = 'hostname'
     DB_PORT = 5432
     try:
         conn = psycopg2.connect(database=DB_NAME, user=DB_USER, password=DB_PASS, host=DB_HOST,
