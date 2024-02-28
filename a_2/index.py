@@ -1,7 +1,7 @@
 #-------------------------------------------------------------------------
 # AUTHOR: lynn takahashi
 # FILENAME: index.py
-# SPECIFICATION: description of the program
+# SPECIFICATION: controller for database manipulation
 # FOR: CS 4250- Assignment #2
 # TIME SPENT: 3 hrs
 #-----------------------------------------------------------*/
