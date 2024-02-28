@@ -1,0 +1,4 @@
+db_connection.py  will use the corpus database tables to manage an inverted index. 
+Contains: 
+1) use the driver program index.py to trigger the operations 
+2) create your tables in your Python program after connecting to the database.
