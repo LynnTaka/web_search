@@ -67,7 +67,7 @@ def getIndex(col):
     # {'baseball':'Exercise:1','summer':'Exercise:1,California:1,Arizona:1','months':'Exercise:1,Discovery:3'}
     index = {}
 
-    cursor = col.find({}, {"terms": 1})
+    cursor = col.find({}, {"terms": 1, "title": 1})
     for doc in cursor:
         for term_obj in doc["terms"]:
             term = term_obj["term"]
