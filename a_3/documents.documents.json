@@ -1,0 +1,42 @@
+[{
+  "_id": {
+    "$oid": "661ae74906aefdc0406b9bef"
+  },
+  "docId": "1",
+  "text": "Baseball is played during summer months",
+  "title": "Exercise",
+  "date": "2023-10-03",
+  "category": "Sports",
+  "terms": [
+    {
+      "term": "baseball",
+      "count": 1,
+      "num_char": 8
+    },
+    {
+      "term": "is",
+      "count": 1,
+      "num_char": 2
+    },
+    {
+      "term": "played",
+      "count": 1,
+      "num_char": 6
+    },
+    {
+      "term": "during",
+      "count": 1,
+      "num_char": 6
+    },
+    {
+      "term": "summer",
+      "count": 1,
+      "num_char": 6
+    },
+    {
+      "term": "months",
+      "count": 1,
+      "num_char": 6
+    }
+  ]
+}]
